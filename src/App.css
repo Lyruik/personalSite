@@ -1,0 +1,43 @@
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  min-width: 95vw;
+  margin: 25px;
+  align-items: flex-end;
+}
+
+.headerLinks {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.container {
+  min-height: 70%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerBox {
+  width: 50%;
+  display: flex;
+}
+
+.contactInfoBox {
+  border-right: 2px solid white;
+  text-align: left;
+  flex-basis: 50%;
+}
+
+.footerQuoteBox {
+  flex-basis: 50%;
+  margin-left: 25px;
+}
