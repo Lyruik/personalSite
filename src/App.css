@@ -46,12 +46,14 @@ footer {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .aboutImgBox {
   height: 450px;
   width: 400px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .singleAboutCard {
@@ -62,7 +64,11 @@ footer {
   border-radius: 10px;
 }
 
+.singleAboutCard:hover {
+  cursor: pointer;
+}
+
 .singleAboutText {
-  border: 3px solid red;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
